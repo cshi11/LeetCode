@@ -44,9 +44,9 @@ class Solution {
 
     public static void main(String[] args) {
         int[] nums = {1,3,-1,-3,5,3,6,7};
-        int[] nums1 = {};
+        // int[] nums1 = {};
         int[] res = new Solution().maxSlidingWindow_1(nums, 3);
-        int[] res1 = new Solution().maxSlidingWindow(nums1, 1);
+        // int[] res1 = new Solution().maxSlidingWindow(nums1, 1);
 
         for(int i : res){
             System.out.println(i);
